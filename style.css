@@ -1,0 +1,99 @@
+@font-face {
+    font-family: "TerminusLocal";
+    src: url("Terminus.ttf");
+}
+
+@font-face {
+    font-family: "Strasua";
+    src: url("Strasua.ttf");
+}
+
+html {
+    height: 95%;
+}
+
+body {
+    background-color: #222222;
+    font-family: TerminusLocal;
+    font-size: 19px;
+    background: url("bg.png");
+    color: #ffffff;
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+}
+
+a:hover {
+}
+
+emph {
+}
+
+#Supercontainer {
+    height: 100%;
+    margin: auto;
+    vertical-align: bottom;
+    align: center;
+    background-color: transparent;
+}
+
+#OverOverBox {
+    padding: 5px;
+    padding-bottom: 20px;
+    border: 5px solid #000000;
+    border-top: 5px dashed #000000;
+    border-bottom: 5px dashed #000000;
+    background-color: #222222;
+}
+
+#OverBox {
+    padding: 5px;
+    border-left: 5px dashed #000000;
+    border-right: 5px dashed #000000;
+}
+
+#BigBody {
+    max-width: 800px;
+    background: #000000;
+    color: #ffffff;
+    padding-bottom: 10px;
+}
+
+#NameHeadder {
+    padding: 0px;
+    padding-left: 30px;
+    padding-bottom: 0px;
+    font-size: 80px;
+    font-family: Strasua;
+    color: #777777; 
+}
+
+#Intro {
+    padding: 15px;
+    padding-bottom: 0px;
+}
+
+.BigNotice {
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.BigNotice a {
+    font-size: 32px;
+    text-transform: uppercase;
+    color: #ff0000;
+}
+
+.BigNotice a:visited {
+    color: ff0000;
+}
+
+.BigNotice a:hover {
+    color: #ffff00;
+}
