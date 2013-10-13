@@ -1,9 +1,4 @@
 @font-face {
-    font-family: "TerminusLocal";
-    src: url("Terminus.ttf");
-}
-
-@font-face {
     font-family: "Strasua";
     src: url("Strasua.ttf");
 }
@@ -13,10 +8,8 @@ html {
 }
 
 body {
-    background-color: #222222;
-    font-family: TerminusLocal;
+    background-color: #343434;
     font-size: 19px;
-    background: url("bg.png");
     color: #ffffff;
     height: 100%;
 }
@@ -37,40 +30,47 @@ emph {
 #Supercontainer {
     height: 100%;
     margin: auto;
+    width: 100%;
     vertical-align: bottom;
     align: center;
+    padding: 50px;
     background-color: transparent;
+    background: url("bg.png");
+    background-repeat: no-repeat;
 }
 
 #OverOverBox {
-    padding: 5px;
-    padding-bottom: 20px;
-    border: 5px solid #000000;
-    border-top: 5px dashed #000000;
-    border-bottom: 5px dashed #000000;
-    background-color: #222222;
+    padding: 0px;
+    background-color: transparent;
 }
 
 #OverBox {
-    padding: 5px;
-    border-left: 5px dashed #000000;
-    border-right: 5px dashed #000000;
+    padding: 0px;
+    padding-left: 150px;
 }
 
 #BigBody {
     max-width: 800px;
-    background: #000000;
-    color: #ffffff;
-    padding-bottom: 10px;
+    background: transparent;
+    color: #fbb700;
+    padding: 0px;
 }
 
 #NameHeadder {
     padding: 0px;
     padding-left: 30px;
-    padding-bottom: 0px;
+    padding-bottom: 40px;
     font-size: 80px;
     font-family: Strasua;
-    color: #777777; 
+    color: #ffffff; 
+}
+
+#john {
+    color: #f76504;
+}
+
+#anthony {
+    color: #fbb700;
 }
 
 #Intro {
@@ -85,15 +85,14 @@ emph {
 }
 
 .BigNotice a {
-    font-size: 32px;
     text-transform: uppercase;
-    color: #ff0000;
+    color: #f76504;
 }
 
 .BigNotice a:visited {
-    color: ff0000;
+    color: f76504;
 }
 
 .BigNotice a:hover {
-    color: #ffff00;
+    color: #ffffff;
 }
