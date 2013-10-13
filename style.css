@@ -5,12 +5,13 @@
 
 html {
     height: 95%;
+    background: #343434 url("bg.png");
 }
 
 body {
-    background-color: #343434;
     font-size: 19px;
     color: #ffffff;
+    padding: 0px;
     height: 100%;
 }
 
@@ -30,18 +31,11 @@ emph {
 #Supercontainer {
     height: 100%;
     margin: auto;
-    width: 100%;
     vertical-align: bottom;
     align: center;
-    padding: 50px;
-    background-color: transparent;
-    background: url("bg.png");
-    background-repeat: no-repeat;
-}
-
-#OverOverBox {
     padding: 0px;
     background-color: transparent;
+    background-repeat: no-repeat;
 }
 
 #OverBox {
