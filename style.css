@@ -5,7 +5,8 @@
 
 html {
     height: 95%;
-    background: #343434 url("bg.png");
+    background: #323232 url("bg.png");
+    background-repeat: no-repeat;
 }
 
 body {
@@ -34,8 +35,6 @@ emph {
     vertical-align: bottom;
     align: center;
     padding: 0px;
-    background-color: transparent;
-    background-repeat: no-repeat;
 }
 
 #OverBox {
