@@ -33,7 +33,6 @@ emph {
     height: 100%;
     margin: auto;
     vertical-align: bottom;
-    align: center;
     padding: 0px;
 }
 
@@ -83,7 +82,7 @@ emph {
 }
 
 .BigNotice a:visited {
-    color: f76504;
+    color: #f76504;
 }
 
 .BigNotice a:hover {
