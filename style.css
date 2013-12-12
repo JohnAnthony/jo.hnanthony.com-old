@@ -51,7 +51,8 @@ emph {
     max-width: 800px;
     color: #fbb700;
     padding: 0px;
-    background: transparent;
+    background: rgba(50, 50, 50, 0.8);
+    border: 2px solid black;
 }
 
 #NameHeadder {
