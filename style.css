@@ -1,6 +1,6 @@
 @font-face {
     font-family: "SSP";
-    src: url("SSP.otf");
+    src: url("Pfennig.otf");
 }
 
 @font-face {
@@ -71,9 +71,11 @@ emph {
 }
 
 .Post {
-    width: 800px;
+    width: 700px;
     margin: 0px;
     margin-top: 20px;
+    margin-right: 50px;
+    margin-left: 50px;
     valign: top;
     background: rgba(50, 50, 50, 0.8);
     border: 2px solid black;
