@@ -1,9 +1,4 @@
 @font-face {
-    font-family: "SSP";
-    src: url("Pfennig.otf");
-}
-
-@font-face {
     font-family: "Strasua";
     src: url("Strasua.ttf");
 }
@@ -15,8 +10,8 @@ html {
 }
 
 body {
-    font-family: "SSP", sans-serif;
-    font-size: 16px;
+    font-family: Verdana, sans-serif;
+    font-size: 15px;
     color: #fbb700;
     padding: 0px;
     height: 100%;
@@ -55,12 +50,14 @@ emph {
     font-family: Strasua;
     font-size: 80px;
     color: #f76504;
+    background: rgba(50, 50, 50, 0.8);
 }
 
 #Anthony {
     font-family: Strasua;
     font-size: 80px;
     color: #fbb700;
+    background: rgba(50, 50, 50, 0.8);
 }
 
 .PermaLinks {
