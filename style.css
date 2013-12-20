@@ -48,7 +48,7 @@ emph {
 
 #Header {
     padding: 0px;
-    width: auto;
+    width: 100%;
 }
 
 #John {
@@ -66,6 +66,8 @@ emph {
 .PermaLinks {
     text-align: right;
     list-style: none;
+    padding: 5px;
+    background: rgba(50, 50, 50, 0.8);
 }
 
 .Post {
@@ -73,24 +75,9 @@ emph {
     margin: 0px;
     margin-top: 20px;
     valign: top;
-}
-
-.Post td {
     background: rgba(50, 50, 50, 0.8);
     border: 2px solid black;
-}
-
-.Post .icon {
-    width: 50px;
-    padding: 0px;
-    background: transparent;
-    margin: 0px;
-    margin-right: 10px;
-    border: none;
-    border-right: 10px solid rgba(0, 0, 0, 0);
-    border-left: 10px solid rgba(0, 0, 0, 0);
-}
-
-.Post .body {
-    padding: 25px;
+    padding: 10px;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
