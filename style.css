@@ -71,13 +71,9 @@ emph {
 .Post {
     width: 700px;
     margin: 0px;
-    margin-top: 20px;
-    margin-right: 50px;
-    margin-left: 50px;
+    margin-top: 25px;
     valign: top;
     background: rgba(50, 50, 50, 0.8);
     border: 2px solid black;
-    padding: 10px;
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding: 25px;
 }
