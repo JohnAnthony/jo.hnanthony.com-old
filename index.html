@@ -6,22 +6,37 @@
     <link rel="stylesheet" href="style.css" type="text/css" media="screen" />
   </head>
   <body>
-    <table id="Supercontainer">
+    <table id="Supercontainer"> <!-- This is a hack to get vertical centering -->
       <tr>
         <td>
-          <div id="NameHeader"><span id="john">John</span> <span id="anthony">Anthony</span></div>
-          <div id="OverBox">
-            <div id="BigBody">
-              <div id="Intro">I'm a freelance software developer, electronics engineer and technology enthusiast based in the East of England.</div>
-              <ul>
-                <li class="BigNotice">I have an <a href="http://osrc.dfm.io/JohnAnthony">Open Source Report Card</a> available for viewing</li>
-                <li class="BigNotice">Check out my <a href="https://www.github.com/JohnAnthony">portfolio</a> on github</li>
-                <li class="BigNotice">Look at this cool <a href="https://github.com/JohnAnthony/MSP430-Diceroller/blob/master/Tutorial/Tutorial.md">microcontroller tutorial</a></li>
-                <li class="BigNotice">I'm a proud supporter of the <a href="http://bigbearfest.org">Sam Bearman Trust</a></li>
-                <li class="BigNotice">Feel free to <a href="mailto:john@jo.hnanthony.com">contact me</a> via email at john@jo.hnanthony.com (<a href="public.key">key</a>)</li>
-              </ul>
-            </div>
+          
+          <table id="Header">
+            <tr>
+              <td>
+                <span id="John">John</span> <span id="Anthony">Anthony</span>
+              </td>
+              <td>
+                <ul id="PermaLinks">
+                  <li><a href="mailto:john@jo.hnanthony.com">Email</a> <<</li>
+                  <li><a href="public.key">Key</a> <<</li>
+                  <li><a href="https://github.com/JohnAnthony">Github</a> <<</li>
+                </ul>
+              </td>
+            </tr>
+          </table>
+
+          <div id="BigBody">
+            <div id="Intro">I'm a freelance software developer, electronics engineer and technology enthusiast based in the East of England.</div>
+            <ul>
+              <li class="BigNotice">I have an <a href="http://osrc.dfm.io/JohnAnthony">Open Source Report Card</a> available for viewing</li>
+              <li class="BigNotice">Check out my <a href="https://www.github.com/JohnAnthony">portfolio</a> on github</li>
+              <li class="BigNotice">Look at this cool <a href="https://github.com/JohnAnthony/MSP430-Diceroller/blob/master/Tutorial/Tutorial.md">microcontroller tutorial</a></li>
+              <li class="BigNotice">I'm a proud supporter of the <a href="http://bigbearfest.org">Sam Bearman Trust</a></li>
+              <li class="BigNotice">Feel free to <a href="mailto:john@jo.hnanthony.com">contact me</a> via email at john@jo.hnanthony.com (<a href="public.key">key</a>)</li>
+            </ul>
           </div>
+
+          
         </td>
       </tr>
     </table>

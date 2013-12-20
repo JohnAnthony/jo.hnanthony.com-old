@@ -17,19 +17,23 @@ html {
 body {
     font-family: "SSP", sans-serif;
     font-size: 16px;
-    color: #ffffff;
+    color: #fbb700;
     padding: 0px;
     height: 100%;
 }
 
 a {
     text-decoration: none;
+    text-transform: uppercase;
+    color: #f76504;
 }
 
 a:visited {
+    color: #f76504;
 }
 
 a:hover {
+    color: #ffffff;
 }
 
 emph {
@@ -42,34 +46,37 @@ emph {
     padding: 0px;
 }
 
-#OverBox {
-    padding: 0px;
-    padding-left: 150px;
-}
-
 #BigBody {
-    max-width: 800px;
-    color: #fbb700;
+    width: 800px;
     padding: 0px;
+    margin: 0px;
     background: rgba(50, 50, 50, 0.8);
     border: 2px solid black;
 }
 
-#NameHeader {
+#Header {
     padding: 0px;
-    padding-left: 30px;
-    padding-bottom: 40px;
-    font-size: 80px;
-    font-family: Strasua;
-    color: #ffffff; 
+    width: 800px;
 }
 
-#john {
+#Header td {
+}
+
+#John {
+    font-family: Strasua;
+    font-size: 80px;
     color: #f76504;
 }
 
-#anthony {
+#Anthony {
+    font-family: Strasua;
+    font-size: 80px;
     color: #fbb700;
+}
+
+#PermaLinks {
+    text-align: right;
+    list-style: none;
 }
 
 #Intro {
@@ -81,17 +88,4 @@ emph {
     padding: 10px;
     padding-left: 20px;
     padding-right: 20px;
-}
-
-.BigNotice a {
-    text-transform: uppercase;
-    color: #f76504;
-}
-
-.BigNotice a:visited {
-    color: #f76504;
-}
-
-.BigNotice a:hover {
-    color: #ffffff;
 }
