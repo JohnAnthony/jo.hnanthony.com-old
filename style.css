@@ -77,3 +77,7 @@ emph {
     border: 2px solid black;
     padding: 25px;
 }
+
+.Signature {
+    text-align: right;
+}
