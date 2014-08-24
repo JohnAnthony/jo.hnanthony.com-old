@@ -1,0 +1,83 @@
+@font-face {
+    font-family: "Strasua";
+    src: url("Strasua.ttf");
+}
+
+html {
+    height: 95%;
+    background: #323232 url("bg.png");
+    background-repeat: no-repeat;
+}
+
+body {
+    font-family: Verdana, sans-serif;
+    font-size: 14px;
+    color: #fbb700;
+    padding: 0px;
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #f76504;
+}
+
+a:visited {
+    color: #f76504;
+}
+
+a:hover {
+    color: #ffffff;
+}
+
+emph {
+}
+
+#Supercontainer {
+    height: 100%;
+    margin: auto;
+    vertical-align: bottom;
+    padding: 0px;
+}
+
+#Header {
+    padding: 0px;
+    width: 100%;
+}
+
+#John {
+    font-family: Strasua;
+    font-size: 80px;
+    color: #f76504;
+    background: rgba(50, 50, 50, 0.8);
+}
+
+#Anthony {
+    font-family: Strasua;
+    font-size: 80px;
+    color: #fbb700;
+    background: rgba(50, 50, 50, 0.8);
+}
+
+.PermaLinks {
+    font-size: 14px;
+    text-align: right;
+    list-style: none;
+    padding: 5px;
+    background: rgba(50, 50, 50, 0.8);
+}
+
+.Post {
+    width: 700px;
+    margin: 0px;
+    margin-top: 25px;
+    valign: top;
+    background: rgba(50, 50, 50, 0.8);
+    border: 2px solid black;
+    padding: 25px;
+}
+
+.Signature {
+    text-align: right;
+}
