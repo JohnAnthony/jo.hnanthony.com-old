@@ -4,7 +4,8 @@ class PostsController < ApplicationController
   end
 
   def index
-    @posts = Post.all
+    # Take the most recent 10 by default
+    @posts = Post.all.reverse.take(10)
   end
 
   def new
