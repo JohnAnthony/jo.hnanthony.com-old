@@ -68,7 +68,7 @@ emph {
     background: rgba(50, 50, 50, 0.8);
 }
 
-.Post {
+.post {
     width: 700px;
     margin: 0px;
     margin-top: 25px;
@@ -78,6 +78,6 @@ emph {
     padding: 25px;
 }
 
-.Signature {
+.signature {
     text-align: right;
 }
