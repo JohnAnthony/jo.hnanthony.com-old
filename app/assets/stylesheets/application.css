@@ -68,7 +68,11 @@ emph {
     background: rgba(50, 50, 50, 0.8);
 }
 
-.post {
+.signature {
+    text-align: right;
+}
+
+.pblock {
     width: 700px;
     margin: 0px;
     margin-top: 25px;
@@ -76,8 +80,4 @@ emph {
     background: rgba(50, 50, 50, 0.8);
     border: 2px solid black;
     padding: 25px;
-}
-
-.signature {
-    text-align: right;
 }
