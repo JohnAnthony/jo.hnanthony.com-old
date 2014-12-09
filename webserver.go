@@ -6,8 +6,13 @@ import (
 	"os"
 )
 
-func serveindex(w http.ResponseWriter, r *http.Request) {
-	filerespond(w, r, "index.html")
+func servespecial(w http.ResponseWriter, r *http.Request) {
+	switch {
+	case r.URL.Path == "/":
+		filerespond(w, r, "index.html")
+	default:
+		http.NotFound(w, r)
+	}
 }
 
 func basicserve(w http.ResponseWriter, r *http.Request) {
@@ -38,7 +43,7 @@ func main() {
 	}
 
 	// Static page handlers
-	http.HandleFunc("/", serveindex)
+	http.HandleFunc("/", servespecial)
 	http.HandleFunc("/style.css", basicserve)
 	http.HandleFunc("/Strasua.ttf", basicserve)
 	http.HandleFunc("/robots.txt", basicserve)
