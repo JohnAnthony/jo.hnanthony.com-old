@@ -1,11 +1,11 @@
 @font-face {
     font-family: "Strasua";
-    src: url("/Strasua.ttf");
+    src: url("Strasua.ttf");
 }
 
 html {
     height: 95%;
-    background: #323232 url('/bg.png');
+    background: #323232 url('bg.png');
     background-repeat: no-repeat;
 }
 
