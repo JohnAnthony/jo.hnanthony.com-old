@@ -1,6 +1,7 @@
 var gulp = require('gulp');
 var sass = require('gulp-sass');
 var concat = require('gulp-concat');
+var jade = require('gulp-jade');
 
 gulp.task('build', ['sass', 'jade']);
 
@@ -12,7 +13,8 @@ gulp.task('sass', function() {
 });
 
 gulp.task('jade', function() {
-    gulp.src('./src/module.html')
+    gulp.src('./src/index.jade')
+	.pipe(jade())
         .pipe(gulp.dest('./build'));
 });
 
