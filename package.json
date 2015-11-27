@@ -1,0 +1,22 @@
+{
+  "name": "jo.hnanthony.com",
+  "version": "1.0.0",
+  "description": "My personal website",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JohnAnthony/jo.hnanthony.com.git"
+  },
+  "author": "John Anthony",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/JohnAnthony/jo.hnanthony.com/issues"
+  },
+  "homepage": "https://github.com/JohnAnthony/jo.hnanthony.com#readme",
+  "devDependencies": {
+    "gulp": "^3.9.0"
+  }
+}
