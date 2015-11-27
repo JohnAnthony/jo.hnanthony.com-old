@@ -20,8 +20,10 @@
     "gulp": "^3.9.0",
     "gulp-concat": "^2.6.0",
     "gulp-jade": "^1.1.0",
+    "gulp-nodemon": "^2.0.4",
     "gulp-sass": "^2.1.0"
   },
   "dependencies": {
+    "express": "^4.13.3"
   }
 }
